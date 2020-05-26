@@ -20,7 +20,7 @@ public class MyViewPagerAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return "첫 페이지";
+            return "첫번째 페이지";
         }
         else if (position == 1) {
             return "두번째 페이지";
